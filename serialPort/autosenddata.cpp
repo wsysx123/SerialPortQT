@@ -44,7 +44,7 @@ void AutoSendData::changeEvent(QEvent *e)
 
 void AutoSendData::timerEvent(QTimerEvent *e)
 {
-     myCom->write(ui->plainTextEdit->toPlainText().toAscii());
+     myCom->write(ui->plainTextEdit->toPlainText().toLatin1());
 }
 
 void AutoSendData::setAutoTime()

@@ -252,7 +252,7 @@ void MainWindow::sendDataBtn()
 {
     if(ui->sendDataEdit->text()=="")
         QMessageBox::warning(this,tr("Warning!"),tr("Cann't send empty string!\n   Try again1"),QMessageBox::Ok);
-    myCom->write(ui->sendDataEdit->text().toAscii());
+    myCom->write(ui->sendDataEdit->text().toLatin1());
     qDebug()<<"write:"<<myCom->bytesToWrite()<<"bytes";//要发送的字节数
 }
 
@@ -524,7 +524,7 @@ void MainWindow::SelectSendFileData()
 
 void MainWindow::sendFileData()
 {
-    myCom->write(ui->sendDataEdit->text().toAscii());
+    myCom->write(ui->sendDataEdit->text().toLatin1());
     strSelectFileData="";
     ui->sendFileBtn->setEnabled(false);
     ui->selectFileBtn->setEnabled(true);

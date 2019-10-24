@@ -292,7 +292,7 @@ void showWave::loadFile()
     }
     else
     {
-        ifstream fin(fileName.toAscii().constData());
+        ifstream fin(fileName.toLatin1().constData());
 
         for(j = 0;j < WIDTH; j++)
         {

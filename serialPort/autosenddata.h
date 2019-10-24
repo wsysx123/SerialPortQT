@@ -1,7 +1,7 @@
 #ifndef AUTOSENDDATA_H
 #define AUTOSENDDATA_H
 
-#include <QtGui/QWidget>
+#include <QtWidgets>
 #include"win_qextserialport.h"
 #include "qextserialbase.h"
 #include"QTimerEvent"

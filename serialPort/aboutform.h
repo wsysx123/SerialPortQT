@@ -1,7 +1,7 @@
 #ifndef ABOUTFORM_H
 #define ABOUTFORM_H
 
-#include <QtGui/QWidget>
+#include <QtWidgets>
 
 namespace Ui {
 class AboutForm;
