@@ -7,3 +7,4 @@ https://github.com/zhouguangfu09/SerialPortQT
 - 改QCreator为VS2019
 - 改QT4为QT5
 - 串口库改用QSerialPort
+- 使用QtCharts图表插件，数据未对接
