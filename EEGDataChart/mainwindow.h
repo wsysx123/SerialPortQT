@@ -8,6 +8,7 @@
 #include"QTimer"
 #include"QSystemTrayIcon"
 #include "eegdataparser.h"
+#include "chartwindow.h"
 //#include "collectdata.h"
 
 
@@ -40,6 +41,8 @@ private:
     HandleData *hd;
 	EEGDataParser *Parser;
     QTimer *time ;
+
+	ChartWindow cw;
 	
 
     //Thread---Handle_data
@@ -56,7 +59,7 @@ private slots:
     void showPlainText();
     //void timerEvent(QTimerEvent *e);
     void timeToReadCom();
-
+	void on_DrawChart_clicked();
     void iconSystemActived(QSystemTrayIcon::ActivationReason reason);
 
 public:

@@ -1160,7 +1160,7 @@
        正在使用项目“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”中的目标“GetNativeManifest”重写项目“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetNativeManifest”。
        正在使用项目“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.DesignTime.targets”中的目标“GetTargetPathWithTargetPlatformMoniker”重写项目“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetTargetPathWithTargetPlatformMoniker”。
        项目中不存在 BeforeTargets 特性中的“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (57,12)”位置列出的目标“CoreCompile”，将忽略该目标。
-生成启动时间为 2019/10/25 16:31:01。
+生成启动时间为 2019/10/25 19:18:31。
      1>项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”在节点 2 上(Build 个目标)。
      1>正在使用工具版本“Current”进行生成。
        项目文件包含 ToolsVersion="16.0"。此工具集未知或缺失(在此情况下，您可以通过安装合适的 MSBuild 版本来解决此问题)，或者生成可能已被强制到特定的 ToolsVersion (出于策略原因)。将项目视为具有 ToolsVersion="Current"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=293424。
@@ -1190,7 +1190,7 @@
          VSTEL_SolutionSessionID={410C4C35-D482-4072-9CFF-299F48509BFA}
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
-         VSTEL_CurrentSolutionBuildID=28311875
+         VSTEL_CurrentSolutionBuildID=38361484
        已完成执行任务“SetEnv”的操作。
        任务“SetEnv”
          VSTEL_ProjectID={B12702AD-ABFB-343A-A199-8E24837244A3}
@@ -1202,7 +1202,7 @@
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
        由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
-       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('chartwindow.cpp;collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp'!='' and 'false'=='true' and '' != 'false')。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“BeforeResolveReferences”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“ResolveReferences”依赖于它):
@@ -1312,7 +1312,7 @@
        已完成执行任务“MakeDir”的操作。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“PrepareForBuild”的操作。
        已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
-       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('chartwindow.cpp;collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp'!='' and 'false'=='true' and '' != 'false')。
        由于条件的计算结果为 false，已跳过目标“GetInstalledSDKLocations”；('@(SDKReference)' != '')的计算结果为('' != '')。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
        由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
@@ -1443,6 +1443,7 @@
        由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“WarnCompileDuplicatedFilename”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'chartwindow.cpp' != 'chartwindow.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'collectdata.cpp' != 'collectdata.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'eegdataparser.cpp' != 'eegdataparser.cpp' and 'x64\Debug\' == 'x64\Debug\')。
        由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'handledata.cpp' != 'handledata.cpp' and 'x64\Debug\' == 'x64\Debug\')。
@@ -1485,7 +1486,7 @@
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_vars.targets”中的目标“QtVars”(目标“QtPrepare”依赖于它):
        正在跳过目标“QtVars”，因为所有输出文件相对于输入文件而言都是最新的。
        输入文件:EEGDataChart.vcxproj
-       输出文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\qtvars_x64_Debug.props;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\qtvars_f24x15h5.ytj.designtime.props
+       输出文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\qtvars_x64_Debug.props;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\qtvars_uiwpmsbz.jfv.designtime.props
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtVars”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_globals.targets”中的目标“QtPrepare”(目标“Qt”依赖于它):
        由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
@@ -1503,12 +1504,33 @@
        由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
        由于 false 条件，已跳过任务“Delete”；('$(SelectedFiles)' != '' AND '$(is_selected)' == 'true')计算为('' != '' AND 'false' == 'true')。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtUicPrepare”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\uic\qtuic.targets”中的目标“QtUicPrepare”(目标“QtUic”依赖于它):
+       正在完全生成目标“QtUicPrepare”。
+       输出文件“@(QtUic->'####### Don't skip this target #######')”不存在。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+       由于 false 条件，已跳过任务“Delete”；('$(SelectedFiles)' != '' AND '$(is_selected)' == 'true')计算为('' != '' AND 'false' == 'true')。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtUicPrepare”的操作。
        已跳过目标“QtUicPrepare”。以前的生成已成功。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\uic\qtuic.targets”中的目标“QtUicSetModified”(目标“QtUic”依赖于它):
+       正在完全生成目标“QtUicSetModified”。
+       输入文件“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\chartwindow.ui”比输出文件“x64\Debug\\uic\\ui_chartwindow.h”新。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CreateProperty”任务。
+       任务“CreateProperty”
+       已完成执行任务“CreateProperty”的操作。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtUicSetModified”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\uic\qtuic.targets”中的目标“QtUicSetModified”(目标“QtUic”依赖于它):
        正在跳过目标“QtUicSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
        输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\mainwindow.ui
        输出文件:x64\Debug\\uic\\ui_mainwindow.h
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtUicSetModified”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\uic\qtuic.targets”中的目标“QtUic”(目标“QtWorkPrepare”依赖于它):
+       正在完全生成目标“QtUic”。
+       输入文件“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\chartwindow.ui”比输出文件“x64\Debug\\uic\\ui_chartwindow.h”新。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+       任务“CreateProperty”
+       已完成执行任务“CreateProperty”的操作。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtUic”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\uic\qtuic.targets”中的目标“QtUic”(目标“QtWorkPrepare”依赖于它):
        正在跳过目标“QtUic”，因为所有输出文件相对于输入文件而言都是最新的。
        输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\mainwindow.ui;EEGDataChart.vcxproj
@@ -1627,18 +1649,25 @@
        正在完全生成目标“QtRcc”。
        输入文件“EEGDataChart.vcxproj”比输出文件“x64\Debug\\rcc\\qrc_mainwindow.cpp”新。
        由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
-       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“CreateProperty”任务。
        任务“CreateProperty”
        已完成执行任务“CreateProperty”的操作。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtRcc”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\rcc\qtrcc.targets”中的目标“QtRcc”(目标“QtWorkPrepare”依赖于它):
-       正在跳过目标“QtRcc”，因为所有输出文件相对于输入文件而言都是最新的。
-       输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\picture.qrc;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\busy.png;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\autoSend.png;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\soft.png;E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\sysTray.png;EEGDataChart.vcxproj
-       输出文件:x64\Debug\\rcc\\qrc_picture.cpp
+       正在完全生成目标“QtRcc”。
+       输入文件“EEGDataChart.vcxproj”比输出文件“x64\Debug\\rcc\\qrc_picture.cpp”新。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+       任务“CreateProperty”
+       已完成执行任务“CreateProperty”的操作。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtRcc”的操作。
        已跳过目标“QtPrepare”。以前的生成已成功。
        已跳过目标“_SelectedFiles”。以前的生成已成功。
        已跳过目标“QtMocInit”。以前的生成已成功。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc.targets”中的目标“QtMocPrepare”(目标“QtMoc”依赖于它):
+       正在完全生成目标“QtMocPrepare”。
+       输出文件“@(QtMoc->'####### Don't skip this target #######')”不存在。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+       由于 false 条件，已跳过任务“Delete”；('$(SelectedFiles)' != '' AND '$(is_selected)' == 'true')计算为('' != '' AND 'false' == 'true')。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMocPrepare”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc.targets”中的目标“QtMocPrepare”(目标“QtMoc”依赖于它):
        正在完全生成目标“QtMocPrepare”。
        输出文件“@(QtMoc->'####### Don't skip this target #######')”不存在。
@@ -1684,7 +1713,17 @@
        输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\handledata.h
        输出文件:x64\Debug\\moc\\moc_handledata.cpp
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMocSetModified”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc.targets”中的目标“QtMocSetModified”(目标“QtMoc”依赖于它):
+       正在跳过目标“QtMocSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\chartwindow.h
+       输出文件:x64\Debug\\moc\\moc_chartwindow.cpp
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMocSetModified”的操作。
        已跳过目标“QtMocPrepare”。以前的生成已成功。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc_cl.targets”中的目标“QtMocOverrideCpp”(目标“QtMoc”依赖于它):
+       正在完全生成目标“QtMocOverrideCpp”。
+       输出文件“@(QtMoc->'####### Don't skip this target #######')”不存在。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMocOverrideCpp”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc_cl.targets”中的目标“QtMocOverrideCpp”(目标“QtMoc”依赖于它):
        正在完全生成目标“QtMocOverrideCpp”。
        输出文件“@(QtMoc->'####### Don't skip this target #######')”不存在。
@@ -1731,13 +1770,28 @@
        任务“CreateProperty”
        已完成执行任务“CreateProperty”的操作。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMoc”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\moc\qtmoc.targets”中的目标“QtMoc”(目标“QtWorkPrepare”依赖于它):
+       正在跳过目标“QtMoc”，因为所有输出文件相对于输入文件而言都是最新的。
+       输入文件:E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\chartwindow.h;EEGDataChart.vcxproj
+       输出文件:x64\Debug\\moc\\moc_chartwindow.cpp
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtMoc”的操作。
        已跳过目标“QtQmlCache”。以前的生成已成功。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_globals.targets”中的目标“QtWorkPrepare”(目标“QtWork”依赖于它):
        正在完全生成目标“QtWorkPrepare”。
        输出文件“@(QtWork->'####### Don't skip this target #######')”不存在。
-       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true' AND '@(QtWork)' != '')计算为('false' == 'true' AND 'mainwindow.ui' != '')。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true' AND '@(QtWork)' != '')计算为('false' == 'true' AND 'chartwindow.ui' != '')。
        正在从程序集“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll”初始化任务工厂“CodeTaskFactory”。
        正在使用来自任务工厂“Code Task Factory”的“GetItemHash”任务。
+       任务“GetItemHash”
+       已完成执行任务“GetItemHash”的操作。
+       由于 false 条件，已跳过任务“FindInList”；('@(QtWork)' != '' AND '$(input_changed)' != 'true')计算为('chartwindow.ui' != '' AND 'true' != 'true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtWorkPrepare”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_globals.targets”中的目标“QtWorkPrepare”(目标“QtWork”依赖于它):
+       正在完全生成目标“QtWorkPrepare”。
+       输出文件“@(QtWork->'####### Don't skip this target #######')”不存在。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true' AND '@(QtWork)' != '')计算为('false' == 'true' AND 'mainwindow.ui' != '')。
        任务“GetItemHash”
        已完成执行任务“GetItemHash”的操作。
        正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindInList”任务。
@@ -1812,17 +1866,28 @@
        已完成执行任务“FindInList”的操作。
        由于 false 条件，已跳过任务“MakeDir”；('@(QtWork)' != '' AND '$(skip_work)' != 'true')计算为('' != '' AND 'true' != 'true')。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtWorkPrepare”的操作。
+     1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_globals.targets”中的目标“QtWorkPrepare”(目标“QtWork”依赖于它):
+       正在完全生成目标“QtWorkPrepare”。
+       输出文件“@(QtWork->'####### Don't skip this target #######')”不存在。
+       由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true' AND '@(QtWork)' != '')计算为('false' == 'true' AND 'chartwindow.h' != '')。
+       任务“GetItemHash”
+       已完成执行任务“GetItemHash”的操作。
+       任务“FindInList”
+         已找到“moc(chartwindow.h)”。
+       已完成执行任务“FindInList”的操作。
+       由于 false 条件，已跳过任务“MakeDir”；('@(QtWork)' != '' AND '$(skip_work)' != 'true')计算为('' != '' AND 'true' != 'true')。
+     1>已完成在项目“EEGDataChart.vcxproj”中生成目标“QtWorkPrepare”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“C:\Users\YSX1\AppData\Local\QtMsBuild\qt_globals.targets”中的目标“QtWork”(目标“Qt”依赖于它):
        由于 false 条件，已跳过任务“Message”；('$(QtDebug)' == 'true')计算为('false' == 'true')。
-       由于 false 条件，已跳过任务“QtRunWork”；('@(QtWork)' != ''
-               AND '%(QtWork.ParallelBuild)' == 'true'
-               AND '$(DesignTimeBuild)' != 'true')计算为('' != ''
-               AND '' == 'true'
-               AND '' != 'true')。
+       正在从程序集“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Build.Tasks.Core.dll”初始化任务工厂“CodeTaskFactory”。
+       正在使用来自任务工厂“Code Task Factory”的“QtRunWork”任务。
+       任务“QtRunWork”
+         uic chartwindow.ui
+       已完成执行任务“QtRunWork”的操作。
        由于 false 条件，已跳过任务“QtRunWork”；('@(QtWork)' != ''
                AND '%(QtWork.ParallelBuild)' != 'true'
-               AND '$(DesignTimeBuild)' != 'true')计算为('' != ''
-               AND '' != 'true'
+               AND '$(DesignTimeBuild)' != 'true')计算为('chartwindow.ui' != ''
+               AND 'true' != 'true'
                AND '' != 'true')。
        任务“WriteLinesToFile”
        已完成执行任务“WriteLinesToFile”的操作。
@@ -1852,6 +1917,20 @@
        已完成执行任务“WriteLinesToFile”的操作。
        任务“WriteLinesToFile”
        已完成执行任务“WriteLinesToFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       由于 false 条件，已跳过任务“Error”；('%(QtWorkResult.ExitCode)' != ''
+               AND '%(QtWorkResult.ExitCode)' != '0'
+               AND '$(DesignTimeBuild)' != 'true')计算为('0' != ''
+               AND '0' != '0'
+               AND '' != 'true')。
+       由于 false 条件，已跳过任务“Error”；('%(QtWorkResult.ExitCode)' != ''
+               AND '%(QtWorkResult.ExitCode)' != '0'
+               AND '$(DesignTimeBuild)' != 'true')计算为('0' != ''
+               AND '0' != '0'
+               AND '' != 'true')。
        由于 false 条件，已跳过任务“Error”；('%(QtWorkResult.ExitCode)' != ''
                AND '%(QtWorkResult.ExitCode)' != '0'
                AND '$(DesignTimeBuild)' != 'true')计算为('0' != ''
@@ -1906,7 +1985,7 @@
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“SelectClCompile”的操作。
        由于条件的计算结果为 false，已跳过目标“QtMsBuildNotFound”；(!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props'))的计算结果为(!Exists('C:\Users\YSX1\AppData\Local\QtMsBuild\qt.targets') or !Exists('C:\Users\YSX1\AppData\Local\QtMsBuild\qt.props'))。
        由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
-       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp;x64\Debug\\rcc\\qrc_mainwindow.cpp;x64\Debug\\rcc\\qrc_picture.cpp;x64\Debug\\moc\\moc_mainwindow.cpp;x64\Debug\\moc\\moc_collectdata.cpp;x64\Debug\\moc\\moc_eegdataparser.cpp;x64\Debug\\moc\\moc_handledata.cpp' != '' and 'false' == 'True')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('chartwindow.cpp;collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp;x64\Debug\\rcc\\qrc_mainwindow.cpp;x64\Debug\\rcc\\qrc_picture.cpp;x64\Debug\\moc\\moc_mainwindow.cpp;x64\Debug\\moc\\moc_collectdata.cpp;x64\Debug\\moc\\moc_eegdataparser.cpp;x64\Debug\\moc\\moc_handledata.cpp;x64\Debug\\moc\\moc_chartwindow.cpp' != '' and 'false' == 'True')。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
        由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'x64\Debug\vc142.pdb' != '' and !Exists(x64\Debug\vc142.pdb))。
        由于 false 条件，已跳过任务“Delete”；('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName)))计算为('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'x64\Debug\vc142.pdb' != '' and !Exists(x64\Debug\vc142.pdb))。
@@ -1917,42 +1996,59 @@
        任务“CL”
          读取跟踪日志:
          	x64\Debug\EEGDataChart.tlog\CL.read.1.tlog
-         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\COLLECTDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\EEGDATAPARSER.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\HANDLEDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAIN.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\THINKGEARSTREAMPARSER.CPP 的输出:
+         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\CHARTWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\COLLECTDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\EEGDATAPARSER.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\HANDLEDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAIN.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\THINKGEARSTREAMPARSER.CPP 的输出:
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\CHARTWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ
-         将编译 mainwindow.cpp，因为在 2019/10/25 16:30:59 处修改了 E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\mainwindow.cpp。
-         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP 的输出:
-         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ
+         将编译 chartwindow.cpp，因为在 2019/10/25 19:18:31 处修改了 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\UIC\UI_CHARTWINDOW.H。
+         将编译 main.cpp，因为在 2019/10/25 19:18:31 处修改了 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\UIC\UI_CHARTWINDOW.H。
+         将编译 mainwindow.cpp，因为在 2019/10/25 19:18:31 处修改了 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\UIC\UI_CHARTWINDOW.H。
+         在跟踪日志中未找到 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\CHARTWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAIN.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP 的输出；需要编译源。
          写入跟踪日志:
          	x64\Debug\EEGDataChart.tlog\CL.write.1.tlog
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=1988
-         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt mainwindow.cpp
+           VS_UNICODE_OUTPUT=2360
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt chartwindow.cpp main.cpp mainwindow.cpp
          Tracking command:
-         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\EEGDataChart.tlog /r E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP /b MSBuildConsole_CancelEvent4c90b5dc512442e59c6106cbc67ea3b9  /c "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt mainwindow.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\EEGDataChart.tlog /r "E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\CHARTWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAIN.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\MAINWINDOW.CPP" /b MSBuildConsole_CancelEventda18c9746c9c45eea9458d9fab60ad89  /c "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt chartwindow.cpp main.cpp mainwindow.cpp
+         chartwindow.cpp
+         main.cpp
          mainwindow.cpp
      1>E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\mainwindow.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧
+     1>E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 main.cpp)
+     1>E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 mainwindow.cpp)
        已完成执行任务“CL”的操作。
        任务“CL”
          读取跟踪日志:
          	x64\Debug\EEGDataChart.tlog\CL.read.1.tlog
-         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_COLLECTDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_EEGDATAPARSER.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_HANDLEDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\RCC\QRC_MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\RCC\QRC_PICTURE.CPP 的输出:
+         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_CHARTWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_COLLECTDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_EEGDATAPARSER.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_HANDLEDATA.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\RCC\QRC_MAINWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\RCC\QRC_PICTURE.CPP 的输出:
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ
-         所有输出均为最新。
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_CHARTWINDOW.OBJ
+         将编译 x64\Debug\\moc\\moc_chartwindow.cpp，因为在 2019/10/25 19:18:31 处修改了 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\UIC\UI_CHARTWINDOW.H。
+         将编译 x64\Debug\\moc\\moc_mainwindow.cpp，因为在 2019/10/25 19:18:31 处修改了 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\UIC\UI_CHARTWINDOW.H。
+         写入跟踪日志:
+         	x64\Debug\EEGDataChart.tlog\CL.write.1.tlog
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=2464
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fp"x64\Debug\EEGDataChart.pch" /Fa"x64\Debug\\" /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /FC /errorReport:prompt x64\Debug\\moc\\moc_chartwindow.cpp x64\Debug\\moc\\moc_mainwindow.cpp
+         Tracking command:
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\EEGDataChart.tlog /r "E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_CHARTWINDOW.CPP|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC\MOC_MAINWINDOW.CPP" /b MSBuildConsole_CancelEvent8e1016abf16146f79e7f799f49f8ef88  /c "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe"  /c /Ix64\Debug\moc /Ix64\Debug\uic /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCharts /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtWidgets /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtGui /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtANGLE /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtSerialPort /ID:/Qt/Qt5.13.0/5.13.0/msvc2017_64/include/QtCore /Ix64\Debug\moc /Ix64\Debug\uic /Zi /nologo /W1 /WX- /diagnostics:column /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_CHARTS_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fp"x64\Debug\EEGDataChart.pch" /Fa"x64\Debug\\" /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /FC /errorReport:prompt x64\Debug\\moc\\moc_chartwindow.cpp x64\Debug\\moc\\moc_mainwindow.cpp
+         moc_chartwindow.cpp
+         moc_mainwindow.cpp
+     1>E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 x64\Debug\\moc\\moc_mainwindow.cpp)
        已完成执行任务“CL”的操作。
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“ClCompile”的操作。
        由于条件的计算结果为 false，已跳过目标“RunSelectedFileNativeCodeAnalysis”；('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='')的计算结果为('false'=='true' and ''!='')。
-       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp;x64\Debug\\rcc\\qrc_mainwindow.cpp;x64\Debug\\rcc\\qrc_picture.cpp;x64\Debug\\moc\\moc_mainwindow.cpp;x64\Debug\\moc\\moc_collectdata.cpp;x64\Debug\\moc\\moc_eegdataparser.cpp;x64\Debug\\moc\\moc_handledata.cpp' != '' and 'false' == 'True')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPostProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('chartwindow.cpp;collectdata.cpp;eegdataparser.cpp;handledata.cpp;main.cpp;mainwindow.cpp;ThinkGearStreamParser.cpp;x64\Debug\\rcc\\qrc_mainwindow.cpp;x64\Debug\\rcc\\qrc_picture.cpp;x64\Debug\\moc\\moc_mainwindow.cpp;x64\Debug\\moc\\moc_collectdata.cpp;x64\Debug\\moc\\moc_eegdataparser.cpp;x64\Debug\\moc\\moc_handledata.cpp;x64\Debug\\moc\\moc_chartwindow.cpp' != '' and 'false' == 'True')。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“AfterClCompile”(目标“_ClCompile”依赖于它):
      1>已完成在项目“EEGDataChart.vcxproj”中生成目标“AfterClCompile”的操作。
      1>来自项目“E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”的文件“D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets”中的目标“_ClCompile”(目标“_BuildCompileAction”依赖于它):
@@ -2079,11 +2175,11 @@
          	x64\Debug\EEGDataChart.tlog\link.write.1.tlog
          读取跟踪日志:
          	x64\Debug\EEGDataChart.tlog\link.read.1.tlog
-         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ 的输出:
-         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.ILK
+         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ 的输出:
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.EXE
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.ILK
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.PDB
-         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ 的输入:
+         E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ 的输入:
          	D:\QT\QT5.13.0\5.13.0\MSVC2017_64\LIB\QT5CHARTSD.LIB
          	D:\QT\QT5.13.0\5.13.0\MSVC2017_64\LIB\QT5WIDGETSD.LIB
          	D:\QT\QT5.13.0\5.13.0\MSVC2017_64\LIB\QT5GUID.LIB
@@ -2103,6 +2199,7 @@
          	D:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\ODBC32.LIB
          	D:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UM\X64\ODBCCP32.LIB
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\CHARTWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ
@@ -2111,22 +2208,23 @@
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ
          	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ
-         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ
+         	E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_CHARTWINDOW.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
          	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
          	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCPRTD.LIB
          	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\MSVCRTD.LIB
          	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\OLDNAMES.LIB
          	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\LIB\X64\VCRUNTIMED.LIB
          	D:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.18362.0\UCRT\X64\UCRTD.LIB
-         	D:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\COMMUNITY\VC\TOOLS\MSVC\14.23.28105\BIN\HOSTX86\X64\CVTRES.EXE
-         	C:\WINDOWS\SYSTEM32\TZRES.DLL
-         需要编译源: 输入 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ 比输出 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.EXE 新。
+         需要编译源: 输入 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ 比输出 E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\X64\DEBUG\EEGDATACHART.PDB 新。
          传递给工具的环境变量为:
-           VS_UNICODE_OUTPUT=2712
+           VS_UNICODE_OUTPUT=2988
          D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\\EEGDataChart.exe" /NOLOGO D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Chartsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Guid.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5SerialPortd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Cored.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.lib" /MACHINE:X64 x64\Debug\EEGDataChart.res
+         x64\Debug\chartwindow.obj
          x64\Debug\collectdata.obj
          x64\Debug\eegdataparser.obj
          x64\Debug\handledata.obj
@@ -2139,8 +2237,10 @@
          x64\Debug\moc_collectdata.obj
          x64\Debug\moc_eegdataparser.obj
          x64\Debug\moc_handledata.obj
+         x64\Debug\moc_chartwindow.obj
          Tracking command:
-         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\EEGDataChart.tlog /r "E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ" /b MSBuildConsole_CancelEventa5d2cb8a127b4481be71db695c953c2b  /c "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\\EEGDataChart.exe" /NOLOGO D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Chartsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Guid.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5SerialPortd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Cored.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.lib" /MACHINE:X64 x64\Debug\EEGDataChart.res
+         D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\EEGDataChart.tlog /r "E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATACHART.RES|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAIN.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_CHARTWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_COLLECTDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_EEGDATAPARSER.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_HANDLEDATA.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\MOC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_MAINWINDOW.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\QRC_PICTURE.OBJ|E:\MYPROGRAM\EEG\MYEEGREADER\EEGDATACHART\EEGDATACHART\X64\DEBUG\THINKGEARSTREAMPARSER.OBJ" /b MSBuildConsole_CancelEvent392264d79a7e409f878e4ae51a299e84  /c "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\\EEGDataChart.exe" /NOLOGO D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Chartsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Widgetsd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Guid.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5SerialPortd.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\Qt5Cored.lib D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\lib\qtmaind.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.lib" /MACHINE:X64 x64\Debug\EEGDataChart.res
+         x64\Debug\chartwindow.obj
          x64\Debug\collectdata.obj
          x64\Debug\eegdataparser.obj
          x64\Debug\handledata.obj
@@ -2153,6 +2253,7 @@
          x64\Debug\moc_collectdata.obj
          x64\Debug\moc_eegdataparser.obj
          x64\Debug\moc_handledata.obj
+         x64\Debug\moc_chartwindow.obj
        已完成执行任务“Link”的操作。
        任务“Message”
          EEGDataChart.vcxproj -> E:\MyProgram\EEG\MyEEGReader\EEGDataChart\x64\Debug\EEGDataChart.exe
@@ -2292,9 +2393,14 @@
        “E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”(Build 目标) (1) ->
        (ClCompile 目标) -> 
          E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\mainwindow.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-         E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧
+         E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 main.cpp)
+         E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 mainwindow.cpp)
 
-    2 个警告
+
+       “E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGDataChart.vcxproj”(Build 目标) (1) ->
+         E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\EEGPacket.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“ASICEEG_Power”的左侧 (编译源文件 x64\Debug\\moc\\moc_mainwindow.cpp)
+
+    4 个警告
     0 个错误
 
-已用时间 00:00:03.81
+已用时间 00:00:10.37

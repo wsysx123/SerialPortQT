@@ -1,4 +1,5 @@
 .vs/*
 x64/*
-EEGData/x64/*
-
+EEGDataChart/x64/*
+EEGDataChart/x64/Debug/*
+.gitignore

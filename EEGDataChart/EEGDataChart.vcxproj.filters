@@ -43,6 +43,9 @@
     <ClCompile Include="ThinkGearStreamParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chartwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="mainwindow.h">
@@ -57,9 +60,15 @@
     <QtMoc Include="handledata.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="chartwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="chartwindow.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

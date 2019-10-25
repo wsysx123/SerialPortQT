@@ -88,6 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chartwindow.cpp" />
     <ClCompile Include="collectdata.cpp" />
     <ClCompile Include="eegdataparser.cpp" />
     <ClCompile Include="handledata.cpp" />
@@ -99,6 +100,7 @@
     <QtMoc Include="mainwindow.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="chartwindow.ui" />
     <QtUic Include="mainwindow.ui" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +120,7 @@
     <QtMoc Include="handledata.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="chartwindow.h" />
     <ClInclude Include="EEGPacket.h" />
     <ClInclude Include="ThinkGearStreamParser.h" />
   </ItemGroup>

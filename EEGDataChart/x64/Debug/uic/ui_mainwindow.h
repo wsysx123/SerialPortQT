@@ -60,6 +60,7 @@ public:
     QGroupBox *groupBox_3;
     QPushButton *closeSerial;
     QPushButton *openSerial;
+    QPushButton *DrawChart;
     QGroupBox *groupBox_4;
     QRadioButton *eightPreRadio;
     QRadioButton *tenPreRadio;
@@ -175,6 +176,9 @@ public:
         openSerial = new QPushButton(groupBox_3);
         openSerial->setObjectName(QString::fromUtf8("openSerial"));
         openSerial->setGeometry(QRect(0, 20, 61, 23));
+        DrawChart = new QPushButton(groupBox_3);
+        DrawChart->setObjectName(QString::fromUtf8("DrawChart"));
+        DrawChart->setGeometry(QRect(0, 50, 61, 28));
         groupBox_4 = new QGroupBox(centralWidget);
         groupBox_4->setObjectName(QString::fromUtf8("groupBox_4"));
         groupBox_4->setGeometry(QRect(580, 190, 131, 101));
@@ -225,6 +229,7 @@ public:
         groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "----", nullptr));
         closeSerial->setText(QCoreApplication::translate("MainWindow", "\345\205\263\351\227\255\344\270\262\345\217\243", nullptr));
         openSerial->setText(QCoreApplication::translate("MainWindow", "\346\211\223\345\274\200\344\270\262\345\217\243", nullptr));
+        DrawChart->setText(QCoreApplication::translate("MainWindow", "\347\273\230\345\210\266\345\233\276\347\272\277", nullptr));
         groupBox_4->setTitle(QCoreApplication::translate("MainWindow", "\351\207\207\346\240\267\347\262\276\345\272\246\357\274\232", nullptr));
         eightPreRadio->setText(QCoreApplication::translate("MainWindow", "8\344\275\215\347\262\276\345\272\246", nullptr));
         tenPreRadio->setText(QCoreApplication::translate("MainWindow", "10\344\275\215\347\262\276\345\272\246", nullptr));

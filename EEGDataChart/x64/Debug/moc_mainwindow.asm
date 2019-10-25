@@ -6,35 +6,18 @@ INCLUDELIB MSVCRTD
 INCLUDELIB OLDNAMES
 
 CONST	SEGMENT
-$SG147651 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
-	DB	'pe.h', 00H
+$SG385060 DB	'containers incompatible for swap', 00H
 	ORG $+3
-$SG147652 DB	'qRegisterNormalizedMetaType was called with a not normal'
-	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+$SG385061 DB	'%s', 00H
 	ORG $+1
-$SG147653 DB	'qRegisterNormalizedMetaType', 00H
-$SG149709 DB	'%s', 00H
-	ORG $+1
-$SG147990 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
-	DB	'pe.h', 00H
-	ORG $+3
-$SG147991 DB	'qRegisterNormalizedMetaType was called with a not normal'
-	DB	'ized type name, please call qRegisterMetaType instead.', 00H
-	ORG $+1
-$SG147992 DB	'qRegisterNormalizedMetaType', 00H
-$SG144621 DB	'%s', 00H
-	ORG $+1
-$SG149708 DB	'invalid argument', 00H
-	ORG $+7
-$SG149713 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
-	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
-	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
+$SG385064 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+	DB	'P', 00H, 'o', 00H, 'c', 00H, 's', 00H, 00H, 00H
 	ORG $+2
-$SG149710 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+$SG385062 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
 	DB	'unity\VC\Tools\MSVC\14.23.28105\include\xmemory', 00H
-$SG144620 DB	'containers incompatible for swap', 00H
-	ORG $+7
-$SG149711 DB	'D', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+$SG389656 DB	'aalloc >= d->size', 00H
+	ORG $+6
+$SG385063 DB	'D', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
 	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
 	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
@@ -51,7 +34,287 @@ $SG149711 DB	'D', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
 	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
 	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
 	DB	00H
-$SG149712 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
+$SG385065 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
+	DB	'i', 00H, 'n', 00H, 'e', 00H, 'r', 00H, 's', 00H, ' ', 00H, 'i'
+	DB	00H, 'n', 00H, 'c', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H
+	DB	't', 00H, 'i', 00H, 'b', 00H, 'l', 00H, 'e', 00H, ' ', 00H, 'f'
+	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, 's', 00H, 'w', 00H, 'a', 00H
+	DB	'p', 00H, '"', 00H, 00H, 00H
+	ORG $+2
+$SG393555 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG389662 DB	'!x->ref.isStatic()', 00H
+	ORG $+5
+$SG393556 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG393557 DB	'qRegisterNormalizedMetaType', 00H
+$SG406554 DB	'%s', 00H
+	ORG $+1
+$SG401809 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG401810 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG401811 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG393931 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG393932 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG393933 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG402148 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG402149 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG402150 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG385949 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG385950 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG385951 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG394353 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG394354 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG394355 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG402570 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG402571 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG402572 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG394692 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG394693 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG394694 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG402992 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG402993 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG402994 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG395031 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG395032 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG395033 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG403331 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG403332 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG403333 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG395370 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG395371 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG395372 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG403752 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG403753 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG403754 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG395734 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG395735 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG395736 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG404173 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG404174 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG404175 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG396073 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG396074 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG396075 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG404558 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG404559 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG404560 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG396412 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG396413 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG396414 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG396751 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG396752 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG396753 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG404980 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG404981 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG404982 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG397131 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG397132 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG397133 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG405402 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG405403 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG405404 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG397536 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG397537 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG397538 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG405824 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG405825 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG405826 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG389655 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389659 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389660 DB	'x->ref.isSharable() || options.testFlag(QArrayData::Unsh'
+	DB	'arable)', 00H
+$SG389661 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389670 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+1
+$SG389671 DB	'd != x', 00H
+	ORG $+5
+$SG389676 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389677 DB	'd->data()', 00H
+	ORG $+6
+$SG389678 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389679 DB	'uint(d->size) <= d->alloc', 00H
+	ORG $+6
+$SG389680 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389681 DB	'd != Data::unsharableEmpty()', 00H
+	ORG $+3
+$SG389682 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389683 DB	'd != Data::sharedNull()', 00H
+$SG389684 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qvector'
+	DB	'.h', 00H
+	ORG $+5
+$SG389685 DB	'd->alloc >= uint(aalloc)', 00H
+	ORG $+7
+$SG397929 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG397930 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG397931 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG398322 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG398323 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG398324 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG406553 DB	'invalid argument', 00H
+	ORG $+15
+$SG406555 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+	DB	'unity\VC\Tools\MSVC\14.23.28105\include\xmemory', 00H
+	ORG $+8
+$SG406556 DB	'D', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
+	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
+	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
+	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
+	DB	00H, 'r', 00H, 'o', 00H, 's', 00H, 'o', 00H, 'f', 00H, 't', 00H
+	DB	' ', 00H, 'V', 00H, 'i', 00H, 's', 00H, 'u', 00H, 'a', 00H, 'l'
+	DB	00H, ' ', 00H, 'S', 00H, 't', 00H, 'u', 00H, 'd', 00H, 'i', 00H
+	DB	'o', 00H, '\', 00H, '2', 00H, '0', 00H, '1', 00H, '9', 00H, '\'
+	DB	00H, 'C', 00H, 'o', 00H, 'm', 00H, 'm', 00H, 'u', 00H, 'n', 00H
+	DB	'i', 00H, 't', 00H, 'y', 00H, '\', 00H, 'V', 00H, 'C', 00H, '\'
+	DB	00H, 'T', 00H, 'o', 00H, 'o', 00H, 'l', 00H, 's', 00H, '\', 00H
+	DB	'M', 00H, 'S', 00H, 'V', 00H, 'C', 00H, '\', 00H, '1', 00H, '4'
+	DB	00H, '.', 00H, '2', 00H, '3', 00H, '.', 00H, '2', 00H, '8', 00H
+	DB	'1', 00H, '0', 00H, '5', 00H, '\', 00H, 'i', 00H, 'n', 00H, 'c'
+	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
+	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
+	DB	00H
+$SG406557 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'A', 00H, 'l', 00H, 'l', 00H, 'o', 00H, 'c', 00H, 'a', 00H, 't'
 	DB	00H, 'e', 00H, '_', 00H, 'm', 00H, 'a', 00H, 'n', 00H, 'u', 00H
 	DB	'a', 00H, 'l', 00H, 'l', 00H, 'y', 00H, '_', 00H, 'v', 00H, 'e'
@@ -59,113 +322,156 @@ $SG149712 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
 	DB	'l', 00H, 'i', 00H, 'g', 00H, 'n', 00H, 'e', 00H, 'd', 00H, 00H
 	DB	00H
 	ORG $+2
-$SG150428 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
-	DB	'unity\VC\Tools\MSVC\14.23.28105\include\xlocale', 00H
-$SG144624 DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H
-	DB	'P', 00H, 'o', 00H, 'c', 00H, 's', 00H, 00H, 00H
+$SG406558 DB	'"', 00H, 'i', 00H, 'n', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+	DB	'i', 00H, 'd', 00H, ' ', 00H, 'a', 00H, 'r', 00H, 'g', 00H, 'u'
+	DB	00H, 'm', 00H, 'e', 00H, 'n', 00H, 't', 00H, '"', 00H, 00H, 00H
 	ORG $+2
-$SG144622 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
-	DB	'unity\VC\Tools\MSVC\14.23.28105\include\xmemory', 00H
-	ORG $+8
-$SG144623 DB	'D', 00H, ':', 00H, '\', 00H, 'P', 00H, 'r', 00H, 'o', 00H
-	DB	'g', 00H, 'r', 00H, 'a', 00H, 'm', 00H, ' ', 00H, 'F', 00H, 'i'
-	DB	00H, 'l', 00H, 'e', 00H, 's', 00H, ' ', 00H, '(', 00H, 'x', 00H
-	DB	'8', 00H, '6', 00H, ')', 00H, '\', 00H, 'M', 00H, 'i', 00H, 'c'
-	DB	00H, 'r', 00H, 'o', 00H, 's', 00H, 'o', 00H, 'f', 00H, 't', 00H
-	DB	' ', 00H, 'V', 00H, 'i', 00H, 's', 00H, 'u', 00H, 'a', 00H, 'l'
-	DB	00H, ' ', 00H, 'S', 00H, 't', 00H, 'u', 00H, 'd', 00H, 'i', 00H
-	DB	'o', 00H, '\', 00H, '2', 00H, '0', 00H, '1', 00H, '9', 00H, '\'
-	DB	00H, 'C', 00H, 'o', 00H, 'm', 00H, 'm', 00H, 'u', 00H, 'n', 00H
-	DB	'i', 00H, 't', 00H, 'y', 00H, '\', 00H, 'V', 00H, 'C', 00H, '\'
-	DB	00H, 'T', 00H, 'o', 00H, 'o', 00H, 'l', 00H, 's', 00H, '\', 00H
-	DB	'M', 00H, 'S', 00H, 'V', 00H, 'C', 00H, '\', 00H, '1', 00H, '4'
-	DB	00H, '.', 00H, '2', 00H, '3', 00H, '.', 00H, '2', 00H, '8', 00H
-	DB	'1', 00H, '0', 00H, '5', 00H, '\', 00H, 'i', 00H, 'n', 00H, 'c'
-	DB	00H, 'l', 00H, 'u', 00H, 'd', 00H, 'e', 00H, '\', 00H, 'x', 00H
-	DB	'm', 00H, 'e', 00H, 'm', 00H, 'o', 00H, 'r', 00H, 'y', 00H, 00H
-	DB	00H
-$SG144625 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
-	DB	'i', 00H, 'n', 00H, 'e', 00H, 'r', 00H, 's', 00H, ' ', 00H, 'i'
-	DB	00H, 'n', 00H, 'c', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H
-	DB	't', 00H, 'i', 00H, 'b', 00H, 'l', 00H, 'e', 00H, ' ', 00H, 'f'
-	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, 's', 00H, 'w', 00H, 'a', 00H
-	DB	'p', 00H, '"', 00H, 00H, 00H
-	ORG $+10
+$SG398715 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+11
+$SG398716 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG398717 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG390631 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG390632 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG390633 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG399108 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG399109 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG399110 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG390970 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG390971 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG390972 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG407358 DB	'D:\Program Files (x86)\Microsoft Visual Studio\2019\Comm'
+	DB	'unity\VC\Tools\MSVC\14.23.28105\include\xlocale', 00H
+$SG399501 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG391309 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+11
+$SG399502 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG391310 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG399503 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG391311 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG399894 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG399895 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG399896 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG400287 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG400288 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG400289 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
 ?qt_meta_stringdata_MainWindow@@3Uqt_meta_stringdata_MainWindow_t@@B DD 0ffffffffH ; qt_meta_stringdata_MainWindow
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000168H
+	DQ	0000000000000180H
 	DD	0ffffffffH
 	DD	0bH
 	DD	00H
 	ORG $+4
-	DQ	000000000000015bH
+	DQ	0000000000000173H
 	DD	0ffffffffH
 	DD	00H
 	DD	00H
 	ORG $+4
-	DQ	000000000000014fH
+	DQ	0000000000000167H
 	DD	0ffffffffH
 	DD	0aH
 	DD	00H
 	ORG $+4
-	DQ	0000000000000138H
+	DQ	0000000000000150H
 	DD	0ffffffffH
 	DD	0bH
+	DD	00H
+	ORG $+4
+	DQ	0000000000000143H
+	DD	0ffffffffH
+	DD	0bH
+	DD	00H
+	ORG $+4
+	DQ	0000000000000137H
+	DD	0ffffffffH
+	DD	0dH
 	DD	00H
 	ORG $+4
 	DQ	000000000000012bH
 	DD	0ffffffffH
-	DD	0bH
+	DD	014H
 	DD	00H
 	ORG $+4
-	DQ	000000000000011fH
+	DQ	0000000000000121H
 	DD	0ffffffffH
-	DD	0dH
+	DD	0cH
+	DD	00H
+	ORG $+4
+	DQ	000000000000011eH
+	DD	0ffffffffH
+	DD	0cH
 	DD	00H
 	ORG $+4
 	DQ	0000000000000113H
 	DD	0ffffffffH
+	DD	0dH
+	DD	00H
+	ORG $+4
+	DQ	0000000000000108H
+	DD	0ffffffffH
+	DD	0dH
+	DD	00H
+	ORG $+4
+	DQ	00000000000000feH
+	DD	0ffffffffH
 	DD	014H
 	DD	00H
 	ORG $+4
-	DQ	0000000000000109H
-	DD	0ffffffffH
-	DD	0cH
-	DD	00H
-	ORG $+4
-	DQ	0000000000000106H
-	DD	0ffffffffH
-	DD	0cH
-	DD	00H
-	ORG $+4
-	DQ	00000000000000fbH
-	DD	0ffffffffH
-	DD	0dH
-	DD	00H
-	ORG $+4
-	DQ	00000000000000f0H
-	DD	0ffffffffH
-	DD	0dH
-	DD	00H
-	ORG $+4
-	DQ	00000000000000e6H
+	DQ	00000000000000f4H
 	DD	0ffffffffH
 	DD	011H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000dcH
+	DQ	00000000000000f1H
 	DD	0ffffffffH
 	DD	021H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000d6H
+	DQ	00000000000000ebH
 	DD	0ffffffffH
 	DD	06H
 	DD	00H
 	ORG $+4
-	DQ	00000000000000e0H
+	DQ	00000000000000f5H
 	DB	04dH
 	DB	061H
 	DB	069H
@@ -314,6 +620,27 @@ $SG144625 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
 	DB	06fH
 	DB	06dH
 	DB	00H
+	DB	06fH
+	DB	06eH
+	DB	05fH
+	DB	044H
+	DB	072H
+	DB	061H
+	DB	077H
+	DB	043H
+	DB	068H
+	DB	061H
+	DB	072H
+	DB	074H
+	DB	05fH
+	DB	063H
+	DB	06cH
+	DB	069H
+	DB	063H
+	DB	06bH
+	DB	065H
+	DB	064H
+	DB	00H
 	DB	069H
 	DB	063H
 	DB	06fH
@@ -373,13 +700,13 @@ $SG144625 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
 	DB	06fH
 	DB	06eH
 	DB	00H
-	ORG $+1
+	ORG $+4
 	ORG $+8
 ?qt_meta_data_MainWindow@@3QBIB DD 08H			; qt_meta_data_MainWindow
 	DD	00H
 	DD	00H
 	DD	00H
-	DD	0bH
+	DD	0cH
 	DD	0eH
 	DD	00H
 	DD	00H
@@ -390,58 +717,63 @@ $SG144625 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
 	DD	00H
 	DD	00H
 	DD	01H
-	DD	00H
-	DD	045H
-	DD	02H
-	DD	08H
-	DD	03H
-	DD	00H
-	DD	046H
-	DD	02H
-	DD	08H
-	DD	04H
-	DD	00H
-	DD	047H
-	DD	02H
-	DD	08H
-	DD	05H
-	DD	00H
-	DD	048H
-	DD	02H
-	DD	08H
-	DD	06H
-	DD	00H
-	DD	049H
-	DD	02H
-	DD	08H
-	DD	07H
 	DD	00H
 	DD	04aH
 	DD	02H
 	DD	08H
-	DD	08H
+	DD	03H
 	DD	00H
 	DD	04bH
 	DD	02H
 	DD	08H
-	DD	09H
+	DD	04H
 	DD	00H
 	DD	04cH
 	DD	02H
 	DD	08H
-	DD	0aH
+	DD	05H
 	DD	00H
 	DD	04dH
 	DD	02H
 	DD	08H
-	DD	0bH
+	DD	06H
 	DD	00H
 	DD	04eH
 	DD	02H
 	DD	08H
-	DD	0cH
-	DD	01H
+	DD	07H
+	DD	00H
 	DD	04fH
+	DD	02H
+	DD	08H
+	DD	08H
+	DD	00H
+	DD	050H
+	DD	02H
+	DD	08H
+	DD	09H
+	DD	00H
+	DD	051H
+	DD	02H
+	DD	08H
+	DD	0aH
+	DD	00H
+	DD	052H
+	DD	02H
+	DD	08H
+	DD	0bH
+	DD	00H
+	DD	053H
+	DD	02H
+	DD	08H
+	DD	0cH
+	DD	00H
+	DD	054H
+	DD	02H
+	DD	08H
+	DD	0dH
+	DD	01H
+	DD	055H
 	DD	02H
 	DD	08H
 	DD	02bH
@@ -455,17 +787,42 @@ $SG144625 DB	'"', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 't', 00H, 'a', 00H
 	DD	02bH
 	DD	02bH
 	DD	02bH
-	DD	08000000dH
-	DD	0eH
+	DD	02bH
+	DD	08000000eH
+	DD	0fH
 	DD	00H
 	ORG $+4
-$SG147312 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+$SG400626 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
 	DB	'pe.h', 00H
-	ORG $+3
-$SG147313 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	ORG $+11
+$SG400627 DB	'qRegisterNormalizedMetaType was called with a not normal'
 	DB	'ized type name, please call qRegisterMetaType instead.', 00H
 	ORG $+1
-$SG147314 DB	'qRegisterNormalizedMetaType', 00H
+$SG400628 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG400965 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG400966 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG400967 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG393133 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG393134 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG393135 DB	'qRegisterNormalizedMetaType', 00H
+	ORG $+4
+$SG401387 DB	'D:\Qt\Qt5.13.0\5.13.0\msvc2017_64\include\QtCore\qmetaty'
+	DB	'pe.h', 00H
+	ORG $+3
+$SG401388 DB	'qRegisterNormalizedMetaType was called with a not normal'
+	DB	'ized type name, please call qRegisterMetaType instead.', 00H
+	ORG $+1
+$SG401389 DB	'qRegisterNormalizedMetaType', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
@@ -489,6 +846,7 @@ EXTRN	?stopShowData@MainWindow@@AEAAXXZ:PROC		; MainWindow::stopShowData
 EXTRN	?saveShowData@MainWindow@@AEAAXXZ:PROC		; MainWindow::saveShowData
 EXTRN	?showPlainText@MainWindow@@AEAAXXZ:PROC		; MainWindow::showPlainText
 EXTRN	?timeToReadCom@MainWindow@@AEAAXXZ:PROC		; MainWindow::timeToReadCom
+EXTRN	?on_DrawChart_clicked@MainWindow@@AEAAXXZ:PROC	; MainWindow::on_DrawChart_clicked
 EXTRN	?iconSystemActived@MainWindow@@AEAAXW4ActivationReason@QSystemTrayIcon@@@Z:PROC ; MainWindow::iconSystemActived
 EXTRN	__imp_?staticMetaObject@QMainWindow@@2UQMetaObject@@B:BYTE
 EXTRN	__ImageBase:BYTE
@@ -505,8 +863,8 @@ $pdata$?qt_metacast@MainWindow@@UEAAPEAXPEBD@Z DD imagerel $LN5
 $pdata$?qt_metacall@MainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN9
 	DD	imagerel $LN9+174
 	DD	imagerel $unwind$?qt_metacall@MainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
-$pdata$?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN19
-	DD	imagerel $LN19+292
+$pdata$?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z DD imagerel $LN20
+	DD	imagerel $LN20+308
 	DD	imagerel $unwind$?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z
 pdata	ENDS
 CRT$XCU	SEGMENT
@@ -527,21 +885,21 @@ xdata	ENDS
 text$di	SEGMENT
 ??__E?staticMetaObject@MainWindow@@2UQMetaObject@@B@@YAXXZ PROC ; `dynamic initializer for 'MainWindow::staticMetaObject'', COMDAT
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 126
+; Line 131
 	mov	rax, QWORD PTR __imp_?staticMetaObject@QMainWindow@@2UQMetaObject@@B
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B, rax
-; Line 127
+; Line 132
 	lea	rax, OFFSET FLAT:?qt_meta_stringdata_MainWindow@@3Uqt_meta_stringdata_MainWindow_t@@B
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B+8, rax
-; Line 128
+; Line 133
 	lea	rax, OFFSET FLAT:?qt_meta_data_MainWindow@@3QBIB
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B+16, rax
-; Line 129
+; Line 134
 	lea	rax, OFFSET FLAT:?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; MainWindow::qt_static_metacall
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B+24, rax
-; Line 130
+; Line 135
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B+32, 0
-; Line 131
+; Line 136
 	mov	QWORD PTR ?staticMetaObject@MainWindow@@2UQMetaObject@@B+40, 0
 	ret	0
 ??__E?staticMetaObject@MainWindow@@2UQMetaObject@@B@@YAXXZ ENDP ; `dynamic initializer for 'MainWindow::staticMetaObject''
@@ -556,81 +914,86 @@ _id$ = 80
 _a$ = 88
 ?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z PROC ; MainWindow::qt_static_metacall
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 104
-$LN19:
+; Line 108
+$LN20:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 56					; 00000038H
-; Line 105
+; Line 109
 	cmp	DWORD PTR _c$[rsp], 0
 	jne	$LN4@qt_static_
-; Line 106
+; Line 110
 	mov	rax, QWORD PTR _o$[rsp]
 	mov	QWORD PTR _t$1[rsp], rax
-; Line 108
+; Line 112
 	mov	eax, DWORD PTR _id$[rsp]
 	mov	DWORD PTR tv69[rsp], eax
-	cmp	DWORD PTR tv69[rsp], 10
-	ja	$LN16@qt_static_
+	cmp	DWORD PTR tv69[rsp], 11
+	ja	$LN17@qt_static_
 	movsxd	rax, DWORD PTR tv69[rsp]
 	lea	rcx, OFFSET FLAT:__ImageBase
-	mov	eax, DWORD PTR $LN18@qt_static_[rcx+rax*4]
+	mov	eax, DWORD PTR $LN19@qt_static_[rcx+rax*4]
 	add	rax, rcx
 	jmp	rax
 $LN5@qt_static_:
-; Line 109
+; Line 113
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?sendDataBtn@MainWindow@@AEAAXXZ	; MainWindow::sendDataBtn
 	jmp	$LN2@qt_static_
 $LN6@qt_static_:
-; Line 110
+; Line 114
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?openSerial@MainWindow@@AEAAXXZ		; MainWindow::openSerial
-	jmp	SHORT $LN2@qt_static_
+	jmp	$LN2@qt_static_
 $LN7@qt_static_:
-; Line 111
+; Line 115
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?closeSerial@MainWindow@@AEAAXXZ	; MainWindow::closeSerial
 	jmp	SHORT $LN2@qt_static_
 $LN8@qt_static_:
-; Line 112
+; Line 116
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?closeWindow@MainWindow@@AEAAXXZ	; MainWindow::closeWindow
 	jmp	SHORT $LN2@qt_static_
 $LN9@qt_static_:
-; Line 113
+; Line 117
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?clearSendArea@MainWindow@@AEAAXXZ	; MainWindow::clearSendArea
 	jmp	SHORT $LN2@qt_static_
 $LN10@qt_static_:
-; Line 114
+; Line 118
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?clearReceiveDataArea@MainWindow@@AEAAXXZ ; MainWindow::clearReceiveDataArea
 	jmp	SHORT $LN2@qt_static_
 $LN11@qt_static_:
-; Line 115
+; Line 119
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?stopShowData@MainWindow@@AEAAXXZ	; MainWindow::stopShowData
 	jmp	SHORT $LN2@qt_static_
 $LN12@qt_static_:
-; Line 116
+; Line 120
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?saveShowData@MainWindow@@AEAAXXZ	; MainWindow::saveShowData
 	jmp	SHORT $LN2@qt_static_
 $LN13@qt_static_:
-; Line 117
+; Line 121
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?showPlainText@MainWindow@@AEAAXXZ	; MainWindow::showPlainText
 	jmp	SHORT $LN2@qt_static_
 $LN14@qt_static_:
-; Line 118
+; Line 122
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?timeToReadCom@MainWindow@@AEAAXXZ	; MainWindow::timeToReadCom
 	jmp	SHORT $LN2@qt_static_
 $LN15@qt_static_:
-; Line 119
+; Line 123
+	mov	rcx, QWORD PTR _t$1[rsp]
+	call	?on_DrawChart_clicked@MainWindow@@AEAAXXZ ; MainWindow::on_DrawChart_clicked
+	jmp	SHORT $LN2@qt_static_
+$LN16@qt_static_:
+; Line 124
 	mov	eax, 8
 	imul	rax, rax, 1
 	mov	rcx, QWORD PTR _a$[rsp]
@@ -638,14 +1001,13 @@ $LN15@qt_static_:
 	mov	edx, DWORD PTR [rax]
 	mov	rcx, QWORD PTR _t$1[rsp]
 	call	?iconSystemActived@MainWindow@@AEAAXW4ActivationReason@QSystemTrayIcon@@@Z ; MainWindow::iconSystemActived
-$LN16@qt_static_:
+$LN17@qt_static_:
 $LN2@qt_static_:
 $LN4@qt_static_:
-; Line 123
+; Line 128
 	add	rsp, 56					; 00000038H
 	ret	0
-	npad	3
-$LN18@qt_static_:
+$LN19@qt_static_:
 	DD	$LN5@qt_static_
 	DD	$LN6@qt_static_
 	DD	$LN7@qt_static_
@@ -657,6 +1019,7 @@ $LN18@qt_static_:
 	DD	$LN13@qt_static_
 	DD	$LN14@qt_static_
 	DD	$LN15@qt_static_
+	DD	$LN16@qt_static_
 ?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ENDP ; MainWindow::qt_static_metacall
 _TEXT	ENDS
 ; Function compile flags: /Odtp
@@ -667,69 +1030,69 @@ _id$ = 64
 _a$ = 72
 ?qt_metacall@MainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z PROC ; MainWindow::qt_metacall
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 149
+; Line 154
 $LN9:
 	mov	QWORD PTR [rsp+32], r9
 	mov	DWORD PTR [rsp+24], r8d
 	mov	DWORD PTR [rsp+16], edx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 150
+; Line 155
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 	mov	DWORD PTR _id$[rsp], eax
-; Line 151
+; Line 156
 	cmp	DWORD PTR _id$[rsp], 0
 	jge	SHORT $LN2@qt_metacal
-; Line 152
+; Line 157
 	mov	eax, DWORD PTR _id$[rsp]
 	jmp	SHORT $LN1@qt_metacal
 $LN2@qt_metacal:
-; Line 153
+; Line 158
 	cmp	DWORD PTR _c$[rsp], 0
 	jne	SHORT $LN3@qt_metacal
-; Line 154
-	cmp	DWORD PTR _id$[rsp], 11
+; Line 159
+	cmp	DWORD PTR _id$[rsp], 12
 	jge	SHORT $LN5@qt_metacal
-; Line 155
+; Line 160
 	mov	r9, QWORD PTR _a$[rsp]
 	mov	r8d, DWORD PTR _id$[rsp]
 	mov	edx, DWORD PTR _c$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	?qt_static_metacall@MainWindow@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z ; MainWindow::qt_static_metacall
 $LN5@qt_metacal:
-; Line 156
+; Line 161
 	mov	eax, DWORD PTR _id$[rsp]
-	sub	eax, 11
+	sub	eax, 12
 	mov	DWORD PTR _id$[rsp], eax
 	jmp	SHORT $LN4@qt_metacal
 $LN3@qt_metacal:
-; Line 157
+; Line 162
 	cmp	DWORD PTR _c$[rsp], 12
 	jne	SHORT $LN6@qt_metacal
-; Line 158
-	cmp	DWORD PTR _id$[rsp], 11
+; Line 163
+	cmp	DWORD PTR _id$[rsp], 12
 	jge	SHORT $LN7@qt_metacal
-; Line 159
+; Line 164
 	mov	eax, 8
 	imul	rax, rax, 0
 	mov	rcx, QWORD PTR _a$[rsp]
 	mov	rax, QWORD PTR [rcx+rax]
 	mov	DWORD PTR [rax], -1
 $LN7@qt_metacal:
-; Line 160
+; Line 165
 	mov	eax, DWORD PTR _id$[rsp]
-	sub	eax, 11
+	sub	eax, 12
 	mov	DWORD PTR _id$[rsp], eax
 $LN6@qt_metacal:
 $LN4@qt_metacal:
-; Line 162
+; Line 167
 	mov	eax, DWORD PTR _id$[rsp]
 $LN1@qt_metacal:
-; Line 163
+; Line 168
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacall@MainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z ENDP ; MainWindow::qt_metacall
@@ -740,33 +1103,33 @@ this$ = 48
 _clname$ = 56
 ?qt_metacast@MainWindow@@UEAAPEAXPEBD@Z PROC		; MainWindow::qt_metacast
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 141
+; Line 146
 $LN5:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 40					; 00000028H
-; Line 142
+; Line 147
 	cmp	QWORD PTR _clname$[rsp], 0
 	jne	SHORT $LN2@qt_metacas
 	xor	eax, eax
 	jmp	SHORT $LN1@qt_metacas
 $LN2@qt_metacas:
-; Line 143
-	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_MainWindow@@3Uqt_meta_stringdata_MainWindow_t@@B+360
+; Line 148
+	lea	rdx, OFFSET FLAT:?qt_meta_stringdata_MainWindow@@3Uqt_meta_stringdata_MainWindow_t@@B+384
 	mov	rcx, QWORD PTR _clname$[rsp]
 	call	strcmp
 	test	eax, eax
 	jne	SHORT $LN3@qt_metacas
-; Line 144
+; Line 149
 	mov	rax, QWORD PTR this$[rsp]
 	jmp	SHORT $LN1@qt_metacas
 $LN3@qt_metacas:
-; Line 145
+; Line 150
 	mov	rdx, QWORD PTR _clname$[rsp]
 	mov	rcx, QWORD PTR this$[rsp]
 	call	QWORD PTR __imp_?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z
 $LN1@qt_metacas:
-; Line 146
+; Line 151
 	add	rsp, 40					; 00000028H
 	ret	0
 ?qt_metacast@MainWindow@@UEAAPEAXPEBD@Z ENDP		; MainWindow::qt_metacast
@@ -777,11 +1140,11 @@ tv82 = 32
 this$ = 64
 ?metaObject@MainWindow@@UEBAPEBUQMetaObject@@XZ PROC	; MainWindow::metaObject
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 136
+; Line 141
 $LN5:
 	mov	QWORD PTR [rsp+8], rcx
 	sub	rsp, 56					; 00000038H
-; Line 137
+; Line 142
 	mov	rax, QWORD PTR this$[rsp]
 	add	rax, 8
 	mov	rcx, rax
@@ -801,7 +1164,7 @@ $LN3@metaObject:
 	mov	QWORD PTR tv82[rsp], rax
 $LN4@metaObject:
 	mov	rax, QWORD PTR tv82[rsp]
-; Line 138
+; Line 143
 	add	rsp, 56					; 00000038H
 	ret	0
 ?metaObject@MainWindow@@UEBAPEBUQMetaObject@@XZ ENDP	; MainWindow::metaObject
@@ -828,7 +1191,7 @@ __formal$ = 8
 __formal$ = 16
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 166
+; Line 171
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
@@ -840,7 +1203,7 @@ _TEXT	SEGMENT
 __formal$ = 8
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File E:\MyProgram\EEG\MyEEGReader\EEGDataChart\EEGDataChart\x64\Debug\moc\moc_mainwindow.cpp
-; Line 166
+; Line 171
 	mov	QWORD PTR [rsp+8], rcx
 	ret	0
 ?__empty_global_delete@@YAXPEAX@Z ENDP			; __empty_global_delete

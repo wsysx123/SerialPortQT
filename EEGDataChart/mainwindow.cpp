@@ -465,6 +465,13 @@ void MainWindow::iconSystemActived(QSystemTrayIcon::ActivationReason reason)
 {
 }
 
+void MainWindow::on_DrawChart_clicked() {
+	cw.showNormal();
+	cw.move(QPoint(0, 0));
+	cw.setWindowTitle("Display Wave!");
+	cw.show();
+}
+
 
 
 
